@@ -1,0 +1,44 @@
+# Core UniDepth dependencies
+einops>=0.7.0
+gradio
+h5py>=3.10.0
+huggingface-hub>=0.22.0
+imageio
+matplotlib
+numpy>=2.0.0
+opencv-python
+pandas
+pillow>=10.2.0
+protobuf>=4.25.3
+scipy
+tables
+tabulate
+termcolor
+timm
+tqdm
+trimesh
+triton>=2.4.0
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+wandb
+xformers>=0.0.26
+
+# ROS2 specific dependencies
+rclpy
+sensor-msgs
+std-msgs
+geometry-msgs
+vision-msgs
+cv-bridge
+
+# Object detection and segmentation
+ultralytics>=8.0.0
+
+# Additional computer vision dependencies
+Pillow-SIMD  # For better performance (optional, requires compilation)
+
+# Development and testing
+pytest
+black
+flake8
